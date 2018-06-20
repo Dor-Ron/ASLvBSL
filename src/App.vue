@@ -6,6 +6,7 @@
           v-layout
             v-flex(xs10 sm8 md6 offset-sm1 offset-sm2 offset-md3)
               h1 ASL vs. BSL Alphabets
+              hr
         v-container
           v-layout(xs12)
             v-flex
@@ -27,7 +28,15 @@ export default {
 @import '~vuetify/src/stylus/main'
 @import url('https://fonts.googleapis.com/css?family=Comfortaa')
 
+*
+  text-align center
+  box-sizing border-box
+  font-family 'Comfortaa', cursive
+
 h1
   font-size 42px
-  font-family 'Comfortaa', cursive
+
+hr
+  width 35%
+  margin 0 auto
 </style>
